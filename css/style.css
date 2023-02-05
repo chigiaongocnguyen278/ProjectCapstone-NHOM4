@@ -222,6 +222,10 @@ color: #eeeeee;
     color: #ff6e65;
 }
 
+/* ?toggle-switch */
+
+
+
 /* !CAROUSEL */
 .carouselStu .carousel-item>img{
         height: 500px;
@@ -659,6 +663,85 @@ color: #ffffff;
 .coursesStu__button a.btn:hover{
     background-color: #0d369f;
 }
+
+/* light theme */
+#switchButton {
+    margin-left: 8px;
+    background-color: white;
+  }
+  #switchButton .fa-sun {
+    display: none;
+    font-size: 25px;
+  }
+  #switchButton .fa-moon {
+    display: block;
+    font-size: 25px;
+  }
+
+  
+/* TODO: Dark Theme*/
+.dark#bodyStu{
+    background-color:#161c2d ;
+    color: #ffffff;
+  }
+
+.dark#coursesStu{
+    background-color: #121725;
+    
+}
+  .dark #switchButton {
+    background-color: black;
+  }
+  .dark #switchButton .fa-sun {
+    display: block;
+    color: white;
+  
+  }
+  
+  .dark #switchButton .fa-moon {
+    display: none;
+   
+  }
+
+
+  /* !BACK TO TOP */
+.backToTop {
+    display: block;
+
+    position: fixed;
+    bottom: 90px;
+    right: 15px;
+    z-index: 9;
+
+    font-size: 13px;
+    border: none;
+
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    background:#0d369f;
+
+    visibility: hidden;
+
+   
+    opacity: 0; 
+
+    transition: all .2s;
+
+}
+
+.cd-top--is-visible {
+    visibility: visible; 
+    opacity: 1; 
+}
+
+
 
 
 
