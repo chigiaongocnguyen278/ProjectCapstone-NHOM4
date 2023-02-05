@@ -663,3 +663,83 @@ color: #ffffff;
 
 
 
+/***********RESPONSIVE**********/
+@media screen and (max-width: 1199px){
+    #navbarStu .navbar-nav .nav-item {
+        padding: 0 8px;
+    }
+    
+    h4 {
+        font-size: calc(1.275rem + 0.3vw);
+    } 
+    
+    
+    .servicesStu h4 a{
+    margin-top: 20px;
+    font-size: 20px;
+     }
+
+     .carouselStu .carousel__info h1{
+    font-size: 57px;
+    line-height: 67px
+     }
+
+     }
+    
+    
+    
+    @media screen and (max-width: 1080px){
+    #navbarStu .navbar-nav .nav-item {
+        padding: 0 4px;
+    }
+     #navbarStu .navbar-nav .nav-link {
+        padding: 6px 6px;
+        font-size: 14px;
+    }
+    }
+    
+@media screen and (max-width: 991.98px){
+    
+             
+    #navbarStu .navbar-nav{
+        text-align: center;
+        padding: 20px;
+        margin-top: 16px;
+        box-shadow: 0 6px 19px rgb(0 0 0 / 5%);
+    
+    }
+    
+    #navbarStu .navbar-nav .nav-item.active .nav-link{ 
+            color: #0d369f;
+         
+         }
+    
+    #navbarStu .navbar-nav .nav-item .nav-link:hover{
+            color: #0d369f;
+         }
+    
+    .servicesStu h4 a{
+            font-size: 25px;
+             }
+
+
+    .carouselStu .carousel__info h1{
+                font-size: 50px;
+                line-height: 60px;
+                 }
+            
+    
+    
+    }
+   
+
+@media screen and (max-width: 767.98px){
+
+        .carouselStu .carousel__info h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+}
+
+    
