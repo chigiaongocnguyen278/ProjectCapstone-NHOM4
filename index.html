@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -458,21 +459,750 @@
     <!-- //footer -->
 
 
+=======
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studious Liberty</title>
+
+  <!-- BOOTSTRAP4 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--  FONT GOOGLE-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body id="bodyStu" class="noscroll">
+  <!-- * TOP HEADER -->
+  <section class="top__header">
+    <div class="container-fluid">
+
+      <div class=" d-flex align-items-center justify-content-between">
+        <div class=" top__headerStu top__header--left ">
+          <ul>
+            <li><a href="#help" class="d-sm-block d-none">Have any question ?</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+1(21) 234 4567 ">+1(21) 234 4567 </a>
+            </li>
+            <li>
+              <i class="fa fa-envelope"></i>
+              <a href="mailto:mail@example.com">
+                mail@example.com
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class=" top__headerStu top__header--right">
+          <ul>
+            <li><a href="#facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+
+            <li><a href="#twiiter"><i class="fa-brands fa-twitter"></i></a></li>
+
+            <li><a href="#instagram"><i class="fa-brands fa-instagram"></i></a></li>
+
+            <li class="mr-0"><a href="#linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- * END OF TOP HEADER -->
+
+  <!-- *HEADER -->
+  <header class="headerStu sticky-top">
+    <div class="container-fluid">
+
+      <nav id="navbarStu" class="navbar resize navbar-expand-lg ">
+
+        <h1>
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" alt="">
+            Studious</a>
+        </h1>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggleStu"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+          <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-toggleStu">
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item active">
+              <a class="nav-link"
+                href="https://demo.w3layouts.com/demos_new/template_demo/13-03-2021/studious-liberty-demo_Free/425342591/web/index.html">HOME
+                <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="https://demo.w3layouts.com/demos_new/template_demo/13-03-2021/studious-liberty-demo_Free/425342591/web/about.html">
+                ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="https://demo.w3layouts.com/demos_new/template_demo/13-03-2021/studious-liberty-demo_Free/425342591/web/courses.html">COURSES</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                PAGES
+                <i class="fa fa-angle-down"></i>
+              </a>
+
+
+
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">BLOG POSTS</a>
+                <a class="dropdown-item" href="#">BLOG SINGLE</a>
+                <a class="dropdown-item" href="#">404 PAGE</a>
+                <a class="dropdown-item" href="#">EMAIL TEMPLATE</a>
+                <a class="dropdown-item" href="#">LANDING PAGE</a>
+                <a class="dropdown-item" href="#">SHORTCODES</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link"
+                href="https://demo.w3layouts.com/demos_new/template_demo/13-03-2021/studious-liberty-demo_Free/425342591/web/contact.html">
+                CONTACT US</a>
+            </li>
+          </ul>
+
+
+          <!-- search button -->
+
+          <form class="headerStu__form ml-lg-3">
+            <input type="search" placeholder="Enter Keyword">
+
+            <button class=" btn-search btn" type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+
+        </div>
+
+        <!-- toggle switch for light and dark theme -->
+
+        <button class="btn" id="switchButton" title="Click to switch theme">
+          <i class="fa-regular fa-moon"></i>
+          <i class="fa-regular fa-sun"></i>
+        </button>
+
+      </nav>
+
+    </div>
+  </header>
+  <!-- * END OF HEADER -->
+
+
+
+  <!-- *CAROUSEL -->
+  <section class="carouselStu">
+
+
+    <div id="carouselStudiousIndicators" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#carouselStudiousIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselStudiousIndicators" data-slide-to="1"></li>
+      </ol>
+
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/banner2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel__info">
+
+            <h1>Master the Skills
+              to Drive your Career</h1>
+            <button class="btn mt-sm-5 mt-4">
+              <a href="#">
+                Know More
+                <i class="fa fa-arrow-right ml-2"></i>
+              </a>
+            </button>
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./img/banner3.jpg" class="d-block w-100" alt="...">
+
+          <div class="carousel__info">
+
+            <h1>Studious is the best choice for everyone</h1>
+            <button class="btn mt-sm-5 mt-4">
+              <a href="#">
+                Know More
+                <i class="fa fa-arrow-right ml-2"></i>
+              </a>
+            </button>
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!--* END OF CAROUSEL -->
+
+
+  <!-- *SERVICES -->
+  <section class="servicesStu">
+    <div class="container">
+      <div class="row">
+        <div class=" servicesStu__item col-12 col-md-6 col-lg-3  px-lg-2 ">
+
+          <div class="servicesStu__box box1">
+            <div class="servicesStu__content">
+
+              <i class="fa fa-cogs"></i>
+              <h4>
+                <a href="#">Engineering & Architecture</a>
+              </h4>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class=" servicesStu__item col-12 col-md-6 col-lg-3 mt-3  mt-md-0 px-lg-2">
+
+          <div class="servicesStu__box box2">
+            <div class="servicesStu__content ">
+              <i class="fa fa-book"></i>
+              <h4><a href="#">Learning Management</a></h4>
+            </div>
+          </div>
+        </div>
+
+        <div class=" servicesStu__item col-12 col-md-6 col-lg-3 mt-3 mt-lg-0 px-lg-2">
+
+          <div class="servicesStu__box box3 ">
+
+            <div class="servicesStu__content ">
+
+              <i class="fa fa-coffee"></i>
+              <h4><a href="#">Business & Management</a></h4>
+
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class=" servicesStu__item col-12 col-md-6 col-lg-3 mt-3 mt-lg-0 px-lg-2 ">
+          <div class="servicesStu__box box4">
+
+
+            <div class="servicesStu__content ">
+
+              <i class="fa fa-hourglass-half"></i>
+              <h4><a href="#">Artificial Intelligence</a></h4>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+
+
+
+  </section>
+  <!-- *END OF SERVICES -->
+
+  <!--*WELCOME -->
+  <section class="welcome py-5">
+    <div class="container py-md-5 py-4">
+
+
+      <div class="welcome__title titleStu mx-auto mb-5 pb-sm-4">
+        <h1> Welcome to <span>Studious</span>
+
+        </h1>
+      </div>
+
+      <div class="welcome__box">
+        <div class="row">
+
+          <div class="col-4">
+
+            <i class="mb-4 fa fa-graduation-cap"></i>
+
+            <a href="#">
+              <h4 class=" mb-2 ">
+                Trending Courses</h4>
+            </a>
+
+            <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+
+
+          </div>
+
+          <div class="col-4">
+
+            <i class=" mb-4 fa fa-users"></i>
+
+
+            <a href="#">
+              <h4 class=" mb-2 ">
+                Certified Teachers</h4>
+            </a>
+
+            <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+
+
+          </div>
+
+          <div class="col-4">
+
+            <i class="mb-4 fa fa-book"></i>
+
+
+            <a href="#">
+              <h4 class=" mb-2 ">
+                Books & Library</h4>
+            </a>
+
+            <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+
+
+          </div>
+
+        </div>
+
+      </div>
 
 
 
 
+    </div>
 
 
-    <!-- JQUERY -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </section>
+  <!-- *END OF WELCOME -->
 
-    <!-- WAYPOINT -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
-        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- COUNTERUP -->
+  <!-- *COURSES -->
+  <section id="coursesStu" class="coursesStu py-5">
+
+    <div class="container py-md-5 py-4">
+
+      <div class="titleStu mx-auto mb-5 pb-sm-4">
+        <h1>
+          Pick a Course to
+          <span> Get Started </span>
+        </h1>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class=" coursesStu__card  card">
+
+            <div class="card__img">
+              <img src="./img/c1.jpg" class="card-img-top" alt="...">
+
+              <div class="card__subItem">
+                <a href="#">Art</a>
+                <a href="#">Design</a>
+              </div>
+
+              <div class="card_priceItem">
+                <h4>$400</h4>
+              </div>
+
+
+            </div>
+
+            <div class=" coursesStu__body card-body">
+
+              <div class="coursesStu__content--sub mb-4 mt-3">
+                <ul>
+                  <li> <i class="fa fa-signal"></i> Intermediate</li>
+                  <li> <i class="fa-regular fa-clock"></i> 10 week</li>
+                </ul>
+              </div>
+
+
+              <h4 class="card-title">
+                <a href="#">
+                  Donec sed teus enime
+                </a>
+              </h4>
+
+              <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+
+              <div class="coursesStu__content--bottom">
+                <ul class="rating-list">
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                </ul>
+
+                <a class="btn" href="#">Know Details<i class="fa-solid fa-arrow-right ml-2"></i></a>
+
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class=" coursesStu__card card">
+
+            <div class="card__img">
+              <img src="./img/c2.jpg" class="card-img-top" alt="...">
+
+              <div class="card__subItem">
+                <a href="#">Digital</a>
+                <a href="#">Learn</a>
+                <a href="#">10% Off</a>
+              </div>
+
+              <div class="card_priceItem">
+                <h4>$900</h4>
+              </div>
+            </div>
+
+
+            <div class=" coursesStu__body card-body">
+
+              <div class="coursesStu__content--sub mb-4 mt-3">
+                <ul>
+                  <li> <i class="fa fa-signal"></i> High</li>
+                  <li> <i class="fa-regular fa-clock"></i> 10 week</li>
+                </ul>
+              </div>
+
+
+              <h4 class="card-title">
+                <a href="#">
+                  Donec sed teus enime
+                </a>
+              </h4>
+
+              <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+
+              <div class="coursesStu__content--bottom">
+                <ul class="rating-list">
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                </ul>
+
+                <a class="btn" href="#">Know Details<i class="fa-solid fa-arrow-right ml-2"></i></a>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class=" coursesStu__card  card">
+
+            <div class="card__img">
+              <img src="./img/c3.jpg" class="card-img-top" alt="...">
+
+              <div class="card__subItem">
+                <a href="#">Html</a>
+                <a href="#">Java</a>
+              </div>
+
+              <div class="card_priceItem">
+                <h4>$99</h4>
+              </div>
+            </div>
+
+            <div class=" coursesStu__body card-body">
+
+              <div class="coursesStu__content--sub mb-4 mt-3">
+                <ul>
+                  <li> <i class="fa fa-signal"></i> Beginner</li>
+                  <li> <i class="fa-regular fa-clock"></i> 10 week</li>
+                </ul>
+              </div>
+
+
+              <h4 class="card-title">
+                <a href="#">
+                  Donec sed teus enime
+                </a>
+              </h4>
+
+              <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+
+              <div class="coursesStu__content--bottom">
+                <ul class="rating-list">
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                </ul>
+
+                <a class="btn" href="#">Know Details<i class="fa-solid fa-arrow-right ml-2"></i></a>
+
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mt-5">
+          <div class=" coursesStu__card  card">
+
+            <div class="card__img">
+              <img src="./img/c4.jpg" class="card-img-top" alt="...">
+
+              <div class="card__subItem">
+                <a href="#">Website</a>
+                <a href="#">Wordpress</a>
+              </div>
+
+              <div class="card_priceItem">
+                <h4>$369</h4>
+              </div>
+            </div>
+
+            <div class=" coursesStu__body card-body">
+
+              <div class="coursesStu__content--sub mb-4 mt-3">
+                <ul>
+                  <li> <i class="fa fa-signal"></i> Intermediate</li>
+                  <li> <i class="fa-regular fa-clock"></i> 10 week</li>
+                </ul>
+              </div>
+
+
+              <h4 class="card-title">
+                <a href="#">
+                  Donec sed teus enime
+                </a>
+              </h4>
+
+              <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+
+              <div class="coursesStu__content--bottom">
+                <ul class="rating-list">
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                </ul>
+
+                <a class="btn" href="#">Know Details<i class="fa-solid fa-arrow-right ml-2"></i></a>
+
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mt-5">
+          <div class=" coursesStu__card  card">
+            <div class="card__img">
+              <img src="./img/c5.jpg" class="card-img-top" alt="...">
+
+              <div class="card__subItem">
+                <a href="#">Marketing</a>
+                <a href="#">Edu</a>
+              </div>
+
+              <div class="card_priceItem">
+                <h4>$499</h4>
+              </div>
+            </div>
+
+            <div class=" coursesStu__body card-body">
+
+              <div class="coursesStu__content--sub mb-4 mt-3">
+                <ul>
+                  <li> <i class="fa fa-signal"></i> High</li>
+                  <li> <i class="fa-regular fa-clock"></i> 10 week</li>
+                </ul>
+              </div>
+
+
+              <h4 class="card-title">
+                <a href="#">
+                  Donec sed teus enime
+                </a>
+              </h4>
+
+              <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+
+              <div class="coursesStu__content--bottom">
+                <ul class="rating-list">
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                </ul>
+
+                <a class="btn" href="#">Know Details<i class="fa-solid fa-arrow-right ml-2"></i></a>
+
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mt-5">
+          <div class=" coursesStu__card  card">
+            <div class="card__img">
+              <img src="./img/c6.jpg" class="card-img-top" alt="...">
+
+              <div class="card__subItem">
+                <a href="#">Study</a>
+                <a href="#">Accadamic</a>
+              </div>
+
+              <div class="card_priceItem">
+                <h4>$289</h4>
+              </div>
+            </div>
+
+            <div class=" coursesStu__body card-body">
+
+              <div class="coursesStu__content--sub mb-4 mt-3">
+                <ul>
+                  <li> <i class="fa fa-signal"></i> Beginner</li>
+                  <li> <i class="fa-regular fa-clock"></i> 10 week</li>
+                </ul>
+              </div>
+
+
+              <h4 class="card-title">
+                <a href="#">
+                  Donec sed teus enime
+                </a>
+              </h4>
+
+              <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+
+              <div class="coursesStu__content--bottom">
+                <ul class="rating-list">
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                  <li><a href="#"><i class="fa fa-star"></i>
+                    </a></li>
+                </ul>
+
+                <a class="btn" href="#">Know Details<i class="fa-solid fa-arrow-right ml-2"></i></a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class=" coursesStu__button text-center mt-5">
+        <a class="btn mt-sm-3" href="#">
+          Browse more courses<i class="fa fa-arrow-right ml-2"></i></a>
+      </div>
+
+
+    </div>
+
+  </section>
+  <!--* END OF COURSES -->
+
+
+  <!-- *BACK TO TOP -->
+  <a href="#" class="backToTop cd-top text-replace js-cd-top">
+    <i class="fa fa-level-up"></i>
+  </a>
+
+
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- WAYPOINT -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- COUNTERUP -->
+  <script src="./js/jquery.counterup.min.js"></script>
+     <!-- COUNTERUP -->
     <script src="./js/jquery.counterup.min.js"></script>
 
     <script>
@@ -483,15 +1213,67 @@
     </script>
 
 
+  <!-- BOOTSTRAP4 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script>
+
+    $('.carousel').carousel({
+      interval: 4000
+
+    })
+
+  </script>
+
+  <!-- When scroll, resize header -->
+
+  <script>
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 0) {
+
+        $('.navbar').removeClass("resize");
+      }
+      else {
+
+        $('.navbar').addClass("resize");
+
+      }
+    });
+  </script>
 
 
-    <!-- BOOTSTRAP JS -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-        crossorigin="anonymous"></script>
+  <!-- Disable body scroll when navbar-collaspe show -->
+
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+
+  <!-- Light theme and dark theme mode -->
+  <script>
+    document.getElementById("switchButton").onclick = function () {
+
+      document.getElementById("bodyStu").classList.toggle("dark");
+      document.getElementById("coursesStu").classList.toggle("dark");
+
+  }
+  </script>
+  
+
+
+  <!-- BACK TO TOP JS-->
+  <script src="./js/util.js"></script>
+  <script src="./js/main.js"></script>
+
+
+
+
+
+
 
 
 </body>
