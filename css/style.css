@@ -9,12 +9,19 @@ h1,h4{
     font-family: 'Montserrat', sans-serif;
   
 }
+.noscroll {
+    min-height: 100vh;
+    overflow: hidden;
+
+}
 
 /*!TOP HEADER */
 .top__header{
     background-color: #0d369f;
 
     padding: 14px 15px;
+
+   
    
 }
 
@@ -56,6 +63,8 @@ h1,h4{
 /* !HEADER */
 .headerStu{
     background-color: #fff;  
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
+    
 }
 
 #navbarStu.navbar{
@@ -64,7 +73,7 @@ h1,h4{
 
 
 #navbarStu.navbar.resize{
-    padding: 19px 16px;
+    padding: 13px 16px;
     
 }
 
@@ -84,17 +93,29 @@ h1,h4{
 }
 
 #navbarStu button.navbar-toggler{
+    border: none;
+
     background-color: #0d369f;
-    padding: 0;  
+    color: #ffffff;
+
+    padding: 0 ;
+    
+    font-size: 22px;  
+  
+    width: 34px;
+    height: 34px;
+   
   
 }
-#navbarStu button.navbar-toggler-icon {
-    height: 34px;
-    width: 34px;
-  
-    line-height: 34px;
-    text-align: center;
-color: #eeeeee;
+
+.swtich-navbar-toggler-icon i:nth-of-type(1){
+    display: none;
+}
+
+
+.swtich-navbar-toggler-icon i:nth-of-type(2){
+    display: block !important;
+
 }
 
 
@@ -182,6 +203,7 @@ color: #eeeeee;
 
 /* search button */
 .headerStu__form{
+    
     display: flex;
     text-align: center;
     
@@ -196,7 +218,7 @@ color: #eeeeee;
     width: 100%;
     border-radius: 30px;
 
-    border: 2px solid #eee;
+    border: 2px solid #ededed;
 }
 .headerStu__form input:focus{
     outline: none;
@@ -221,6 +243,23 @@ color: #eeeeee;
 #navbarStu button.btn-search i:hover{
     color: #ff6e65;
 }
+
+
+/* toggle switch for light and dark theme  */
+#switchButton i:first-child{
+    transition: all 0.5s;
+    color: #000000;
+}
+#switchButton i:first-child:hover{
+    color: #ff6e65;
+}
+
+
+
+
+
+
+
 
 /* !CAROUSEL */
 .carouselStu .carousel-item>img{
@@ -264,8 +303,8 @@ color: #eeeeee;
 
 .carouselStu .carousel__info{
     position: absolute;
-    text-align: left;
-    max-width: 46%;
+    
+    max-width: 600px;
     top:50%;
     left:27%;
     transform: translate(-50%,-50%);
@@ -316,11 +355,17 @@ color: #ffffff;
 
 
 /*!SERVICES*/
+.servicesStu{
+    margin-top: -4em;
 
-.servicesStu .row{
-   margin-top: -6%;
-   padding: 0 15px;
+
 }
+
+
+.servicesStu .container{
+    padding:0;
+}
+
 
 .servicesStu__item{
     background-color:transparent;
@@ -369,7 +414,9 @@ color: #ffffff;
 .servicesStu__box{
     color: #eeeeee;
     position: relative;
-    padding: 8em 4em;
+    padding : 7em 5em;
+  
+ 
     border-radius: 8px;
 
 }
@@ -660,6 +707,151 @@ color: #ffffff;
     background-color: #0d369f;
 }
 
+/*! Light Theme */
+#switchButton {
+    margin-left: 8px;
+    background-color: white;
+  }
+#switchButton .fa-sun {
+    display: none;
+    font-size: 25px;
+  }
+#switchButton .fa-moon {
+    display: block;
+    font-size: 25px;
+  }
+
+  
+/* TODO: Dark Theme*/
+
+.dark #switchButton {
+    background-color:#161c2d;
+    color: #4867b0;
+}
+
+
+.dark #switchButton .fa-sun {
+    display: block;
+    transition: all 0.5s;
+    
+  
+}
+.dark #switchButton .fa-sun:hover{
+    color: #ff6e65;
+}
+
+  
+.dark #switchButton .fa-moon {
+    display: none;
+    color: #4867b0;
+   
+}
+.dark#bodyStu{
+    background-color:#161c2d ;
+    
+}
+.dark#bodyStu .top__header{
+    background-color: #4867b0;
+}
+
+.dark#bodyStu .headerStu{
+    background-color:#161c2d ;
+  
+}
+
+.dark#bodyStu .headerStu a{
+    color: #ffffff;
+}
+.dark#bodyStu .headerStu button.navbar-toggler {
+    background-color:#4867b0;
+    
+}
+.dark#bodyStu .headerStu .navbar-collapse{
+    border: 1px solid rgba(255 255 255 / 20%);
+}
+ .dark#bodyStu .headerStu #navbarStu .navbar-toggler:focus {
+    
+    outline: 2px double ;
+} 
+
+.dark#bodyStu .headerStu .headerStu__form input::placeholder{
+    color: #ffffff;
+} 
+
+
+.dark#bodyStu .carouselStu h1{
+    color: #4867b0;
+}
+
+.dark#bodyStu  .welcome h1{
+    color: #ffffff;
+}
+
+.dark#bodyStu .welcome__box i{
+    background-color:#262c3d;
+    color: #4867b0;
+}
+.dark#bodyStu .welcome__box h4,.dark#bodyStu .welcome__box p{
+    color: #ffffff;
+}
+.dark#bodyStu .coursesStu {
+    background-color:  #121725 ;
+    color: #ffffff;
+
+}
+.dark#bodyStu .coursesStu .coursesStu__card{
+    background-color: #121725;
+    color: #ffffff;
+    border: 1px solid rgba(255 255 255 / 10%);
+}
+.dark#bodyStu .coursesStu .coursesStu__body h4 a,.dark#bodyStu .coursesStu .coursesStu__body p{
+    color: #ffffff;
+}
+
+
+
+
+
+
+  /* !BACK TO TOP */
+.backToTop {
+    display: block;
+
+    position: fixed;
+    bottom: 90px;
+    right: 15px;
+    z-index: 9;
+
+    font-size: 13px;
+    border: none;
+
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    background:#0d369f;
+
+    visibility: hidden;
+
+   
+    opacity: 0; 
+
+    transition: all .2s;
+
+}
+
+.cd-top--is-visible {
+    visibility: visible; 
+    opacity: 1; 
+}
+
+
+
 
 
 /***********RESPONSIVE**********/
@@ -677,13 +869,36 @@ color: #ffffff;
     margin-top: 20px;
     font-size: 20px;
      }
+     .carouselStu .carousel__info {
+        width: 70%;
+        left: 35%;
+       
+         }
+    
 
      .carouselStu .carousel__info h1{
     font-size: 57px;
     line-height: 67px
      }
 
-     }
+.servicesStu .servicesStu__box h4 a{
+    margin-top: 20px;
+    font-size: 20px;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+    }
     
     
     
@@ -698,6 +913,10 @@ color: #ffffff;
     }
     
 @media screen and (max-width: 991.98px){
+
+    .top__header{
+        display: none;
+    }
     
              
     #navbarStu .navbar-nav{
@@ -707,15 +926,56 @@ color: #ffffff;
         box-shadow: 0 6px 19px rgb(0 0 0 / 5%);
     
     }
+    #navbarStu .navbar-nav .nav-item {
+        padding: 8px 0;
+    }
+    #navbarStu .navbar-nav .nav-link{
+        font-size: 15px;
+        padding: 2px 10px;
+    }
     
     #navbarStu .navbar-nav .nav-item.active .nav-link{ 
             color: #0d369f;
          
-         }
+    } 
     
-    #navbarStu .navbar-nav .nav-item .nav-link:hover{
+     #navbarStu .navbar-nav .nav-item .nav-link:hover{
             color: #0d369f;
+    } 
+    
+    
+    #navbarStu .navbar-collapse .headerStu__form  {
+    border: 0.5px solid rgba(255 255 255 / 10%);
+    width: 25vw;
+    margin: auto;
+}
+
+   
+    .carouselStu .carousel__info {
+        left: 45%;
+       
          }
+
+         .servicesStu .servicesStu__box h4 a{
+        
+            font-size: 25px;
+
+
+}
+
+#navbarStu .navbar-collapse .headerStu__form  input{
+    border: 1px solid #ededed;
+}
+ 
+.dark#bodyStu #navbarStu .navbar-collapse .headerStu__form  input{
+    border: 1px solid rgba(255 255 255 / 70%);
+}
+  #navbarStu button#switchButton{
+
+         position: absolute;
+    right: 60px;
+    top: 28px;
+}
     
     .servicesStu h4 a{
             font-size: 25px;
@@ -725,19 +985,94 @@ color: #ffffff;
     .carouselStu .carousel__info h1{
                 font-size: 50px;
                 line-height: 60px;
-                 }
+                 }  
+
+    .coursesStu .row>div:nth-child(3){
+                    margin-top:3rem;
             
+                }
     
+ @media screen and (max-width: 825px){
+
+                .carouselStu .carousel__info {
+                    left: 40%;
+                   
+                     }
     
-    }
-   
+                    }
 
 @media screen and (max-width: 767.98px){
+    #navbarStu.navbar {
+        justify-content: space-between;
+    }
+
+
+
+    .carouselStu .carousel__info {
+        left: 50%;
+       
+         }
 
         .carouselStu .carousel__info h1{
         font-size: 45px;
         line-height: 55px;
     }
 
+    .coursesStu .row>div:nth-child(2){
+        margin-top:3rem;
+
+    }
+}
+@media screen and (max-width: 680px){
+    .carouselStu .carousel__info {
+        width: 80%;
+        left: 50%;
+       
+
 }
 
+@media screen and (max-width: 632px){
+    #navbarStu .navbar-collapse .headerStu__form {
+        width: 43vw;
+    }
+
+
+
+    .servicesStu .servicesStu__box{
+        width:80vw;
+        margin: auto;
+    
+}
+}
+
+
+@media screen and (max-width: 575.98px){
+    #navbarStu .navbar-collapse .headerStu__form {
+        width: 43vw;
+    }
+
+    .carouselStu .carousel__info {
+        width: 90%;
+
+    } 
+    .servicesStu .row{
+        /* margin-top: -50px; */
+
+
+    }
+    .servicesStu .servicesStu__box{
+        width:90vw;
+        margin: auto;
+        margin-bottom: 1.5rem;
+     
+    }
+
+        .servicesStu .servicesStu__box .box1{
+            top: -20px;
+            
+
+    }
+    
+}
+
+}
