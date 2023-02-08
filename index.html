@@ -35,29 +35,8 @@
 </head>
 
 <body>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Studious Liberty</title>
 
-  <!-- BOOTSTRAP4 -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
 
-  <!-- FONT AWESOME -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <!--  FONT GOOGLE-->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-
-  <!-- MAIN CSS -->
-  <link rel="stylesheet" href="./css/style.css" />
-</head>
 
 <body id="bodyStu" class="noscroll">
   <!-- * TOP HEADER -->
@@ -105,15 +84,15 @@
       <nav id="navbarStu" class="navbar resize navbar-expand-lg ">
 
         <h1>
-          <a class="navbar-brand" href="#">
-            <img src="./img/logo.png" alt="">
-            Studious</a>
+              <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="">
+                Studious</a>
         </h1>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggleStu"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-          <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                  <i class="fa-solid fa-bars"></i>
+                  <i class="fa-solid fa-xmark d-none"></i>
         </button>
 
         <div class="collapse navbar-collapse" id="navbar-toggleStu">
@@ -155,18 +134,21 @@
                 href="https://demo.w3layouts.com/demos_new/template_demo/13-03-2021/studious-liberty-demo_Free/425342591/web/contact.html">
                 CONTACT US</a>
             </li>
-          </ul>
-
-
-          <!-- search button -->
-
+            
           <form class="headerStu__form ml-lg-3">
             <input type="search" placeholder="Enter Keyword">
 
-            <button class=" btn-search btn" type="submit">
+            <button class=" btn-search btn">
               <i class="fa fa-search"></i>
             </button>
           </form>
+
+
+
+          </ul>
+
+          <!-- search button -->
+
 
         </div>
 
@@ -323,7 +305,7 @@
       <div class="welcome__box">
         <div class="row">
 
-          <div class="col-4">
+          <div class="col-12  col-sm-6  col-lg-4">
 
             <i class="mb-4 fa fa-graduation-cap"></i>
 
@@ -337,7 +319,7 @@
 
           </div>
 
-          <div class="col-4">
+          <div class="col-12 col-sm-6 col-lg-4">
 
             <i class=" mb-4 fa fa-users"></i>
 
@@ -352,7 +334,7 @@
 
           </div>
 
-          <div class="col-4">
+          <div class="col-12  col-sm-6 col-lg-4">
 
             <i class="mb-4 fa fa-book"></i>
 
@@ -1209,16 +1191,25 @@
             time: 12000
         });
     </script>
+    <script>
+        $('.counter').counterUp({
+            delay: 10,
+            time: 12000
+        });
+    </script>
 
 
   <!-- BOOTSTRAP4 JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
     crossorigin="anonymous"></script>
+
+
   <script>
 
+
     $('.carousel').carousel({
-      interval: 4000
+      interval: 5000
 
     })
 
@@ -1241,11 +1232,23 @@
   </script>
 
 
+
+<!-- switch navbar-toggler icon when click on -->
+  
+<script>
+  $(function () {
+      $('#navbarStu .navbar-toggler').click(function () {
+        $(this).toggleClass('swtich-navbar-toggler-icon');
+      })
+    }); 
+</script>
+
+
   <!-- Disable body scroll when navbar-collaspe show -->
 
   <script>
     $(function () {
-      $('.navbar-toggler').click(function () {
+      $('#navbarStu .navbar-toggler').click(function () {
         $('body').toggleClass('noscroll');
       })
     });
