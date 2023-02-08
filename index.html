@@ -775,13 +775,13 @@
 
   <script>
     $(window).scroll(function () {
-      if ($(document).scrollTop() > 0) {
+      if ($(document).scrollTop() > 10 && sreen.width > 991) {
 
-        $('.navbar').removeClass("resize");
+        $('.headerStu').addClass("resize");
       }
       else {
 
-        $('.navbar').addClass("resize");
+        $('.headerStu').removeClass("resize");
 
       }
     });
