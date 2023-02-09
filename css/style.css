@@ -41,12 +41,12 @@ h4 {
     font-size: 15px;
     font-weight: 500;
 
-    color: #ffffff;
+    color: white;
 
 }
 
 .top__headerStu li a {
-    color: #ffffff;
+    color: white;
     transition: all 0.5s;
 }
 
@@ -67,10 +67,9 @@ h4 {
 
 /* !HEADER */
 .headerStu {
-    background-color: #ffffff;
+    background-color: #fff;
     
     margin: 10px 0;
-    transition: 0.2s;
    
 }
 
@@ -176,7 +175,7 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
     transform: translateX(-50px);
     min-width: 190px;
     padding: 16px 0;
-    background-color: #ffffff;
+    background-color: #fff;
 
     border: 0 solid transparent;
 
@@ -199,7 +198,7 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
     width: 14px;
     height: 14px;
 
-    background: #ffffff;
+    background: white;
 
     border: 1px solid transparent;
 
@@ -272,9 +271,6 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 
 
 /* toggle switch for light and dark theme  */
-#switchButton{
-    border: none;
-}
 #switchButton i:first-child {
     transition: all 0.5s;
     color: #000000;
@@ -294,7 +290,7 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 
 /* !CAROUSEL */
 .carouselStu .carousel-item>img {
-   
+    height: 500px;
     min-height: 90vh;
     object-fit: cover;
     object-position: top right;
@@ -773,7 +769,7 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 /* light theme */
 #switchButton {
     margin-left: 8px;
-    background-color: #ffffff;
+    background-color: white;
 }
 
 #switchButton .fa-sun {
@@ -836,6 +832,9 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 
 }
 
+.dark#bodyStu .headerStu .navbar-collapse {
+    border: 1px solid rgba(255 255 255 / 20%);
+}
 
 .dark#bodyStu .headerStu #navbarStu .navbar-toggler:focus {
 
@@ -854,22 +853,15 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 .dark#bodyStu .welcome h1 {
     color: #ffffff;
 }
-.dark#bodyStu .titleStu h1::before,.dark#bodyStu .titleStu h1::after{
-    background: #cdc5c5;
-}
-
 
 .dark#bodyStu .welcome__box i {
     background-color: #262c3d;
     color: #4867b0;
 }
 
-.dark#bodyStu .welcome__box h4
- {
+.dark#bodyStu .welcome__box h4,
+.dark#bodyStu .welcome__box p {
     color: #ffffff;
-}
-.dark#bodyStu .welcome__box p{
-    color: #cdc5c5;
 }
 
 .dark#bodyStu .coursesStu {
@@ -880,7 +872,8 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 
 .dark#bodyStu .coursesStu .coursesStu__card {
     background-color: #121725;
-    
+    color: #ffffff;
+    border: 1px solid rgba(255 255 255 / 10%);
 }
 .dark#bodyStu .coursesStu__content--bottom::after{
     border-top: 1px solid rgba(255 255 255 / 20%);
@@ -1013,25 +1006,11 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
        
 
         width: 100vw;
-        height: auto !important;
-
         margin: 0;
-
         box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
-
        
      }
-     #navbarStu{
-        padding: 0.5rem 0rem;
-     }
-     #navbarStu .navbar-brand img {
-        max-width: 54px;
-     }
-   
-     
 
-
-     
     #navbarStu .navbar-nav {
         text-align: center;
         padding: 20px;
@@ -1057,10 +1036,6 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
     #navbarStu .navbar-nav .nav-item .nav-link:hover {
         color: #0d369f;
     }
-    .dark#bodyStu .headerStu .navbar-collapse {
-        border: 1px solid rgba(255 255 255 / 20%);
-    }
-    
 
 
     #navbarStu .navbar-collapse .headerStu__form {
@@ -1080,19 +1055,13 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
     #navbarStu button#switchButton {
 
         position: absolute;
-        right: 50px;
-        top: 25px;
+        right: 60px;
+        top: 20px;
     }
     #switchButton i:first-child {
       
         color:#0d369f;
     }
-    
-.dark #switchButton .fa-sun {
-
-    color: #ff6e65;
-
-}
     
     
      /* carousel */
@@ -1124,7 +1093,9 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 }
 
     @media screen and (max-width: 820px) {
-       
+        .headerStu .container-fluid{
+            padding: 0;
+        }
 
 
         .carouselStu .carousel__info {
@@ -1167,7 +1138,11 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 
     @media screen and (max-width: 668px) {
         /* header */
-        
+        .headerStu .container-fluid{
+            padding: 0 15px;
+
+
+        }
 
 
         #navbarStu .navbar-collapse .headerStu__form {
@@ -1206,7 +1181,6 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
   
             .headerStu .container-fluid{
                 padding: 0;
-                
             }
              
             #navbarStu .navbar-collapse .headerStu__form {
@@ -1238,18 +1212,16 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 
  @media screen and (max-width: 482px){
 
-
+    
+     .headerStu .container-fluid{
+        padding: 0;
+    }
          #navbarStu .navbar-brand {
           font-size: 28px;
          }
         }
 
         @media screen and (max-width: 380px){
-
-            #navbarStu .navbar-brand img {
-                max-width: 38px;
-            }
-           
             #navbarStu .navbar-brand {
              font-size: 22px;
             }
