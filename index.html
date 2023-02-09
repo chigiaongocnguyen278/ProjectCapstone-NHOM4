@@ -3,42 +3,31 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Studious Liberty</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studious Liberty</title>
 
+  <!-- BOOTSTRAP4 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
 
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!--  FONT GOOGLE-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
 
-
-    <!-- GOOGLE FONT -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <!-- ICON -->
-    <!-- <link rel="stylesheet" href="./css/icon/font-awesome.min.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
-<body>
-
-
-
-<body id="bodyStu" class="noscroll">
+<body id="bodyStu">
   <!-- * TOP HEADER -->
   <section class="top__header">
     <div class="container-fluid">
@@ -81,7 +70,7 @@
   <header class="headerStu sticky-top">
     <div class="container-fluid">
 
-      <nav id="navbarStu" class="navbar navbar-expand-lg ">
+      <nav id="navbarStu" class="navbar resize navbar-expand-lg ">
 
         <h1>
               <a class="navbar-brand" href="#">
@@ -154,9 +143,9 @@
 
         <!-- toggle switch for light and dark theme -->
  
-        <button id="switchButton">
+        <button class="btn" id="switchButton" title="Click to switch theme">
           <i class="fa-regular fa-moon"></i>
-          <i class="fa-regular fa-sun"></i>
+          <i class="fa-solid fa-sun"></i>
         </button>
 
       </nav>
@@ -363,7 +352,7 @@
   <!-- *END OF WELCOME -->
 
   <!-- *COURSES -->
-  <section id="coursesStu" class="coursesStu py-5">
+  <section class="coursesStu py-5">
 
     <div class="container py-md-5 py-4">
 
@@ -747,430 +736,6 @@
     <i class="fa fa-level-up"></i>
   </a>
 
-  
-    <!-- grids book-->
-    <section class="bookblock">
-      <div class="bb-services-ab py-5">
-          <div class="container py-md-5 py-4">
-              <div class="bb-services-grids pb-sm-5 mb-sm-4">
-                  <div class="row services-right-grid">
-                      <div class="col-xl-4">
-                      </div>
-                      <div class="col-xl-8">
-                          <div class="fea-gd-vv row">
-                              <div class="col-md-6">
-                                  <div class="d-flex align-items-center feature-gd ">
-                                      <div class="icon">
-                                          <i class="fa fa-american-sign-language-interpreting" aria-hidden="true"></i>
-                                      </div>
-                                      <div class="icon-info">
-                                          <h5>Flexible Classes</h5>
-                                          <p> Lorem ipsum dolor sit amet, dolor elit.</p>
-
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="col-md-6 mt-md-0 mt-4">
-                                  <div class="d-flex align-items-center feature-gd">
-                                      <div class="icon">
-                                          <i class="fa fa-download" aria-hidden="true"></i>
-                                      </div>
-                                      <div class="icon-info">
-                                          <h5>Offline Mode</h5>
-                                          <p> Lorem ipsum dolor sit amet, dolor elit.</p>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="col-md-6 mt-4 pt-md-2">
-                                  <div class="d-flex align-items-center feature-gd ">
-                                      <div class="icon">
-                                          <i class="fa fa-headphones" aria-hidden="true"></i>
-                                      </div>
-                                      <div class="icon-info">
-                                          <h5>Educator Help</h5>
-                                          <p> Lorem ipsum dolor sit amet, dolor elit.</p>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="col-md-6 mt-4 pt-md-2">
-                                  <div class="d-flex align-items-center feature-gd">
-                                      <div class="icon">
-                                          <i class="fa fa-play-circle" aria-hidden="true"></i>
-                                      </div>
-                                      <div class="icon-info">
-                                          <h5>Online Classes</h5>
-                                          <p> Lorem ipsum dolor sit amet, dolor elit.</p>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-  <!-- end grids book-->
-
-  <!-- Count -->
-  <section class="count">
-      <div class="w3_stats py-sm-5 pt-sm-0 pt-5" id="">
-          <div class="container py-md-5 py-4">
-              <div class="title-heading-w3 text-center mx-auto mb-5 pb-sm-4">
-                  <h3 class="title-main">Strength in <span>Numbers</span></h3>
-                  <p class="mt-4 pt-md-2">Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum
-                      et
-                      dolorum
-                      fuga.</p>
-              </div>
-              <div class="Number">
-                  <div class="number__content row text-center">
-                      <div class="col-lg-3 col-sm-6">
-                          <div class="number__item">
-                              <p class="counter">6,300</p>
-                              <span>LEARNERS & COUNTING</span>
-                          </div>
-                      </div>
-                      <div class="col-lg-3 col-sm-6 mt-sm-0 mt-4">
-                          <div class="number__item">
-                              <p class="counter">638</p>
-                              <span>TOTAL COURSES</span>
-                          </div>
-                      </div>
-                      <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
-                          <div class="number__item">
-                              <p class="counter">7,600</p>
-                              <span>SUCCESSFUL STUDENTS</span>
-                          </div>
-                      </div>
-                      <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
-                          <div class="number__item border-right-0">
-                              <p class="counter">36</p>
-                              <span>LANGUAGES</span>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-  <!-- End count -->
-
-  <!-- Client -->
-  <section class="client">
-      <div class="w3l-cutomer-main-cont">
-          <div class="testimonials py-5">
-              <div class="container py-md-5 py-4">
-                  <div class="title-heading-w3 text-center mx-auto mb-5 pb-lg-5">
-                      <h3 class="title-main">Student Community <span>Feedback </span></h3>
-                  </div>
-                  <div class="row content-sec mt-md-5">
-                      <div class="col-lg-4 col-md-6 testi-sections">
-                          <div class="testimonials_grid">
-                              <p class="sub-test"><q>
-                                      Nam libero tempore, cum soluta
-                                      nobis est eligendi optio cumque nihil impedit.</q>
-                              </p>
-                              <div class="d-grid sub-author-con">
-                                  <div class="testi-img-res">
-                                      <img src="./img/testi2.jpg" alt="" class="img-fluid" />
-                                  </div>
-                                  <div class="testi_grid text-left">
-                                      <h5>Petey Cruis</h5>
-                                      <p>Caption Here</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-lg-4 col-md-6 mt-md-0 mt-4 testi-sections">
-                          <div class="testimonials_grid">
-                              <p class="sub-test"><q>
-                                      Nam
-                                      libero
-                                      tempore, cum soluta
-                                      nobis est eligendi optio cumque nihil impedit.</q>
-                              </p>
-                              <div class="d-grid sub-author-con">
-                                  <div class="testi-img-res">
-                                      <img src="./img/testi1.jpg" alt="" class="img-fluid" />
-                                  </div>
-                                  <div class="testi_grid text-left">
-                                      <h5>Molive Joe</h5>
-                                      <p>Caption Here</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-lg-4 col-md-6 mt-lg-0 mt-4 testi-sections">
-                          <div class="testimonials_grid">
-                              <p class="sub-test"><q>
-                                      Nam
-                                      libero
-                                      tempore, cum soluta
-                                      nobis est eligendi optio cumque nihil impedit.</q>
-                              </p>
-                              <div class="d-grid sub-author-con">
-                                  <div class="testi-img-res">
-                                      <img src="./img/testi3.jpg" alt="" class="img-fluid" />
-                                  </div>
-                                  <div class="testi_grid text-left">
-                                      <h5>Paige Turner</h5>
-                                      <p>Caption Here</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-  <!-- End client  -->
-
-  <!-- Customer -->
-  <section class="w3l-team py-sm-5 pb-sm-0 pb-5">
-      <div class="container py-md-5 py-4">
-          <div class="title-heading-w3 text-center mx-auto mb-5 pb-sm-4">
-              <h3 class="title-main">World Class <span>Instructors</span></h3>
-          </div>
-          <div class="row text-center">
-              <div class="col-lg-3 col-sm-6">
-                  <div class="team-block-single">
-                      <div class="team-grids">
-                          <a href="#team-single">
-                              <img src="./img/team1.jpg" class="img-fluid" alt="">
-                              <div class="team-info">
-                                  <div class="social-icons-section">
-                                      <a class="fac" href="#facebook">
-                                         <i class="fa-brands fa-facebook-f"></i> 
-                                      </a>
-                                      <a class="twitter mx-2" href="#twitter">
-                                          <i class="fa-brands fa-twitter"></i>
-                                      </a>
-                                      <a class="google" href="#google-plus">
-                                         <i class="fa-brands fa-google-plus-g"></i>
-                                      </a>
-                                  </div>
-                              </div>
-                          </a>
-                      </div>
-                      <div class="team-bottom-block p-4">
-                          <h5 class="member mb-1"><a href="#team">Olive Yew</a></h5>
-                          <small>Teaches Design</small>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-3 col-sm-6 mt-sm-0 mt-5">
-                  <div class="team-block-single">
-                      <div class="team-grids">
-                          <a href="#team-single">
-                              <img src="./img/team2.jpg" class="img-fluid" alt="">
-                              <div class="team-info">
-                                  <div class="social-icons-section">
-                                      <a class="fac" href="#facebook">
-                                          <i class="fa-brands fa-facebook-f"></i>
-                                      </a>
-                                      <a class="twitter mx-2" href="#twitter">
-                                          <i class="fa-brands fa-twitter"></i>
-                                      </a>
-                                      <a class="google" href="#google-plus">
-                                          <i class="fa-brands fa-google-plus-g"></i>
-                                      </a>
-                                  </div>
-                              </div>
-                          </a>
-                      </div>
-                      <div class="team-bottom-block p-4">
-                          <h5 class="member mb-1 active"><a href="#team">Aida Joe</a></h5>
-                          <small>UI/UX Designer</small>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-3 col-sm-6 mt-lg-0 mt-5">
-                  <div class="team-block-single">
-                      <div class="team-grids">
-                          <a href="#team-single">
-                              <img src="./img/team3.jpg" class="img-fluid" alt="">
-                              <div class="team-info">
-                                  <div class="social-icons-section">
-                                      <a class="fac" href="#facebook">
-                                         <i class="fa-brands fa-facebook-f"></i>
-                                      </a>
-                                      <a class="twitter mx-2" href="#twitter">
-                                          <i class="fa-brands fa-twitter"></i>
-                                      </a>
-                                      <a class="google" href="#google-plus">
-                                          <i class="fa-brands fa-google-plus-g"></i>
-                                      </a>
-                                  </div>
-                              </div>
-                          </a>
-                      </div>
-                      <div class="team-bottom-block p-4">
-                          <h5 class="member mb-1"><a href="#team">Teri Dac</a></h5>
-                          <small>Teaches Skills</small>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-3 col-sm-6 mt-lg-0 mt-5">
-                  <div class="team-block-single">
-                      <div class="team-grids">
-                          <a href="#team-single">
-                              <img src="./img/team4.jpg" class="img-fluid" alt="">
-                              <div class="team-info">
-                                  <div class="social-icons-section">
-                                      <a class="fac" href="#facebook">
-                                          <i class="fa-brands fa-facebook-f"></i>
-                                      </a>
-                                      <a class="twitter mx-2" href="#twitter">
-                                          
-                                          <i class="fa-brands fa-twitter"></i>
-                                      </a>
-                                      <a class="google" href="#google-plus">
-                                          
-                                          <i class="fa-brands fa-google-plus-g"></i>
-                                      </a>
-                                  </div>
-                              </div>
-                          </a>
-                      </div>
-                      <div class="team-bottom-block p-4">
-                          <h5 class="member mb-1"><a href="#team">Anton Bne</a></h5>
-                          <small>Web Designer</small>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-  <!-- End customer -->
-
-  <!-- Contact -->
-  <section class="w3l-about-2 pb-5">
-      <div class="container pb-md-5 pb-4 mb-5">
-          <div class="row align-items-center justify-content-between">
-              <div class="col-lg-5 about-2-secs-right mb-lg-0 mb-4 text-center">
-                  <img src="./img/image.png" alt="" class="img-fluid img-responsive m-auto" />
-              </div>
-              <div class="col-lg-7 about-2-secs-left pr-lg-5">
-                  <h3 class="title-style mb-sm-3 mb-2">
-                      Not Sure Where to Begin? <br>Contact Now, We will Help you</h3>
-                  <p>Consectetur adipiscing elit. Aliquam sit amet
-                      efficitur tortor.Uspendisse efficitur orci urna. In et augue ornare, tempor massa in, luctus
-                      sapien.</p>
-                  <div class="mt-4">
-                      <a class="btn btn-style btn-style-secondary mt-3" href="contact.html">Contact Us</a>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-  <!-- End Contact -->
-
-  <!-- footer -->
-  <footer class="w3l-footer-22 position-relative mt-5 pt-5">
-      <div class="footer-sub">
-          <div class="container">
-              <div class="text-txt">
-                  <div class="right-side">
-                      <!-- form section -->
-                      <div class="row align-items-center w3l-forms-9">
-                          <div class="main-midd col-md-6">
-                              <h4 class="title-head mb-lg-2">Subscribe Us to join our Community </h4>
-                              <p>Newsletter</p>
-                          </div>
-                          <div class="main-midd-2 col-md-6 mt-md-0 mt-4">
-                              <form action="#url" method="GET" class="rightside-form">
-                                  <input type="email" class="form-control" name="email"
-                                      placeholder="Enter your email">
-                                  <button class="btn" type="submit">Send</button>
-                              </form>
-                          </div>
-                      </div>
-                      <!-- //form section -->
-                  </div>
-                  <div class="row sub-columns">
-                      <div class="col-lg-2 col-sm-6 sub-two-right">
-                          <h6>Quick links</h6>
-                          <ul>
-                              <li><a href="index.html"><span class="fa fa-angle-double-right mr-2"></span>Home</a>
-                              </li>
-                              <li><a href="about.html"><span class="fa fa-angle-double-right mr-2"></span>About</a>
-                              </li>
-                              <li><a href="courses.html"><span
-                                          class="fa fa-angle-double-right mr-2"></span>Courses</a></li>
-                              <li><a href="contact.html"><span
-                                          class="fa fa-angle-double-right mr-2"></span>Contact</a></li>
-                          </ul>
-                      </div>
-                      <div class="col-lg-3 col-sm-6 sub-two-right pl-lg-5 mt-sm-0 mt-4">
-                          <h6>Help & Support</h6>
-                          <ul>
-                              <li><a href="#live"><span class="fa fa-angle-double-right mr-2"></span>Live
-                                      Chart</a></li>
-                              <li><a href="#faq"><span class="fa fa-angle-double-right mr-2"></span>Faq</a>
-                              </li>
-                              <li><a href="#support"><span class="fa fa-angle-double-right mr-2"></span>Support</a>
-                              </li>
-                              <li><a href="#terms"><span class="fa fa-angle-double-right mr-2"></span>Terms
-                                      of Services</a></li>
-                          </ul>
-                      </div>
-                      <div class="col-lg-3 col-sm-6 sub-one-left mt-lg-0 mt-sm-5 mt-4">
-                          <h6>Contact </h6>
-                          <div class="column2">
-                              <div class="href1"><span class="fa-regular fa-envelope" aria-hidden="true"></span><a
-                                      href="mailto:info@example.com">info@example.com</a>
-                              </div>
-                              <div class="href2"><span class="fa fa-phone" aria-hidden="true"></span><a
-                                      href="tel:+44-000-888-999">+44-000-888-999</a>
-                              </div>
-                              <div>
-                                  <p class="contact-para"><span class="fa fa-map-marker"
-                                          aria-hidden="true"></span>London, 235 Terry, 10001</p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-lg-4 col-sm-6 sub-one-left ab-right-cont pl-lg-5 mt-lg-0 mt-sm-5 mt-4">
-                          <h6>About </h6>
-                          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                              doloremque
-                              laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
-                          <div class="columns-2">
-                              <ul class="social">
-                                  <li><a href="#facebook"><span class="fa-brands fa-facebook-f" aria-hidden="true"></span></a>
-                                  </li>
-                                  <li><a href="#linkedin"><span class="fa-brands fa-linkedin-in" aria-hidden="true"></span></a>
-                                  </li>
-                                  <li><a href="#twitter"><span class="fa-brands fa-twitter" aria-hidden="true"></span></a>
-                                  </li>
-                                  <li><a href="#google"><span class="fa-brands fa-google-plus" aria-hidden="true"></span></a>
-                                  </li>
-                                  <li><a href="#github"><span class="fa-brands fa-github" aria-hidden="true"></span></a>
-                                  </li>
-                              </ul>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <!-- copyright -->
-      <div class="copyright-footer text-center">
-          <div class="container">
-              <div class="columns">
-                  <p>@2021 Studious. All rights reserved. Design by <a href="https://w3layouts.com/"
-                          target="_blank"></a>
-                      W3Layouts</a>
-                  </p>
-              </div>
-          </div>
-      </div>
-      <!-- //copyright -->
-  </footer>
-  <!-- //footer -->
-
-
 
   <!-- JQUERY -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -1182,15 +747,15 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- COUNTERUP -->
   <script src="./js/jquery.counterup.min.js"></script>
-     <!-- COUNTERUP -->
-    <script src="./js/jquery.counterup.min.js"></script>
 
-    <script>
-        $('.counter').counterUp({
-            delay: 10,
-            time: 12000
-        });
-    </script>
+  <script>
+    $(".counter").counterUp({
+      delay: 10,
+      time: 3000,
+    });
+  </script>
+
+
   <!-- BOOTSTRAP4 JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
@@ -1198,7 +763,6 @@
 
 
   <script>
-
 
     $('.carousel').carousel({
       interval: 5000
@@ -1211,8 +775,7 @@
 
   <script>
     $(window).scroll(function () {
-      if ($(document).scrollTop() > 10 && 
-      $( window ).width() > 991 ) {
+      if ($(document).scrollTop() > 10 && sreen.width > 991) {
 
         $('.headerStu').addClass("resize");
       }
@@ -1248,16 +811,17 @@
   </script>
 
   <!-- Light theme and dark theme mode -->
-
-
   <script>
     document.getElementById("switchButton").onclick = function () {
 
       document.getElementById("bodyStu").classList.toggle("dark");
-      document.getElementById("coursesStu").classList.toggle("dark");
-
   }
   </script>
+
+
+
+
+  
 
 
   <!-- BACK TO TOP JS-->
