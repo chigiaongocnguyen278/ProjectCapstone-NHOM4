@@ -70,7 +70,7 @@
   <header class="headerStu sticky-top">
     <div class="container-fluid">
 
-      <nav id="navbarStu" class="navbar resize navbar-expand-lg ">
+      <nav id="navbarStu" class="navbar navbar-expand-lg ">
 
         <h1>
               <a class="navbar-brand" href="#">
@@ -143,9 +143,9 @@
 
         <!-- toggle switch for light and dark theme -->
  
-        <button class="btn" id="switchButton" title="Click to switch theme">
+        <button id="switchButton">
           <i class="fa-regular fa-moon"></i>
-          <i class="fa-solid fa-sun"></i>
+          <i class="fa-regular fa-sun"></i>
         </button>
 
       </nav>
@@ -775,7 +775,8 @@
 
   <script>
     $(window).scroll(function () {
-      if ($(document).scrollTop() > 10 && sreen.width > 991) {
+      if ($(document).scrollTop() > 10 && 
+      $( window ).width() > 991 ) {
 
         $('.headerStu').addClass("resize");
       }
@@ -811,12 +812,15 @@
   </script>
 
   <!-- Light theme and dark theme mode -->
+
+
   <script>
     document.getElementById("switchButton").onclick = function () {
 
       document.getElementById("bodyStu").classList.toggle("dark");
   }
   </script>
+ 
 
 
 
