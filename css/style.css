@@ -22,9 +22,6 @@ h4 {
     background-color: #0d369f;
 
     padding: 14px 15px;
-
-
-
 }
 
 
@@ -42,7 +39,6 @@ h4 {
     font-weight: 500;
 
     color: white;
-
 }
 
 .top__headerStu li a {
@@ -633,7 +629,6 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 
 .coursesStu .card_priceItem {
 
-
     text-align: center;
 
 
@@ -649,7 +644,6 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
     position: absolute;
     right: 5%;
     bottom: -8%;
-
 
 }
 
@@ -886,10 +880,6 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 }
 
 
-
-
-
-
 /* !BACK TO TOP */
 .backToTop {
     display: block;
@@ -962,19 +952,7 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
     .servicesStu .servicesStu__box h4 a {
         margin-top: 20px;
         font-size: 20px;
-
-
-
-
     }
-
-
-
-
-
-
-
-
 
 }
 
@@ -1065,7 +1043,6 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
     
     
      /* carousel */
-    
 
     .carouselStu .carousel__info {
         left: 45%;
@@ -1112,7 +1089,7 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
             justify-content: space-between;
         }
         
-/* carousel */
+       /* carousel */
     .carouselStu .carousel-item>img{
         height: 85vh;
     }
@@ -1170,7 +1147,6 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
             width: 80vw;
             margin: auto;
 
-
     }
 
 }
@@ -1179,30 +1155,30 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
          
 
   
-            .headerStu .container-fluid{
+    .headerStu .container-fluid{
                 padding: 0;
             }
              
-            #navbarStu .navbar-collapse .headerStu__form {
+     #navbarStu .navbar-collapse .headerStu__form {
                 width: 43vw;
             }
-            /* carousel */
+     /* carousel */
 
-            .carouselStu .carousel__info {
+     .carouselStu .carousel__info {
                 width: 90%;
 
             }
            
     /* service */
 
-            .servicesStu .servicesStu__box {
+    .servicesStu .servicesStu__box {
                 width: 90vw;
                 margin: auto;
                 margin-bottom: 1.5rem;
 
             }
 
-            .servicesStu .servicesStu__box .box1 {
+    .servicesStu .servicesStu__box .box1 {
                 top: -20px;
 
             }
@@ -1213,21 +1189,21 @@ box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
  @media screen and (max-width: 482px){
 
     
-     .headerStu .container-fluid{
+    .headerStu .container-fluid{
         padding: 0;
     }
-         #navbarStu .navbar-brand {
+     #navbarStu .navbar-brand {
           font-size: 28px;
          }
-        }
+ }
 
-        @media screen and (max-width: 380px){
+@media screen and (max-width: 380px){
             #navbarStu .navbar-brand {
              font-size: 22px;
             }
 
-         
-           }
+        
+ }
    
 
 

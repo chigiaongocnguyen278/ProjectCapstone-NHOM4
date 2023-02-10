@@ -10,7 +10,7 @@
 
 
 
-    <!-- BOOTSTRAP -->
+    <!-- BOOTSTRAP4 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
@@ -22,8 +22,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <!-- ICON -->
-    <!-- <link rel="stylesheet" href="./css/icon/font-awesome.min.css"> -->
+    <!-- FONT AWESOME -->
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -1168,7 +1168,7 @@
       </div>
       <!-- //copyright -->
   </footer>
-  <!-- //footer -->
+  <!--footer -->
 
 
 
@@ -1196,15 +1196,11 @@
     integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
     crossorigin="anonymous"></script>
 
-
+    <!-- carousel Bs -->
   <script>
-
-
     $('.carousel').carousel({
       interval: 5000
-
     })
-
   </script>
 
   <!-- When scroll, resize header -->
@@ -1213,13 +1209,10 @@
     $(window).scroll(function () {
       if ($(document).scrollTop() > 10 && 
       $( window ).width() > 991 ) {
-
         $('.headerStu').addClass("resize");
       }
       else {
-
         $('.headerStu').removeClass("resize");
-
       }
     });
   </script>
@@ -1248,15 +1241,10 @@
   </script>
 
   <!-- Light theme and dark theme mode -->
-
-
   <script>
     document.getElementById("switchButton").onclick = function () {
-
       document.getElementById("bodyStu").classList.toggle("dark");
-      document.getElementById("coursesStu").classList.toggle("dark");
-
-  }
+      document.getElementById("coursesStu").classList.toggle("dark"); }
   </script>
 
 
