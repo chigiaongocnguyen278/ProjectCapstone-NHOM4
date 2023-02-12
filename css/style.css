@@ -763,180 +763,6 @@ h4 {
   font-size: 25px;
 }
 
-
-/* TODO: Dark Theme*/
-
-/* dark-theme:giao */
-.dark#bodyStu {
-  background-color: #161c2d;
-  color: #ffffff;
-}
-/* switchButton */
-
-.dark#bodyStu #switchButton {
-  background-color: #161c2d;
-  color: #4867b0;
-}
-
-.dark#bodyStu #switchButton .fa-sun {
-  display: block;
-  color: #ffffff;
-
-}
-
-.dark#bodyStu #switchButton .fa-moon {
-  display: none;
-
-}
-/* header */
-
-.dark#bodyStu .top__header {
-  background-color: #4867b0;
-}
-
-.dark#bodyStu .headerStu {
-  background-color: #161c2d;
-
-}
-
-.dark#bodyStu .headerStu a {
-  color: #ffffff;
-}
-
-.dark#bodyStu .headerStu button.navbar-toggler {
-  background-color: #4867b0;
-
-}
-
-.dark#bodyStu .headerStu #navbarStu .navbar-toggler:focus {
-
-  outline: 2px double;
-}
-
-.dark#bodyStu .headerStu .headerStu__form input::placeholder {
-  color: #ffffff;
-}
-.dark#bodyStu .headerStu .headerStu__form button.btn-search{
-  color: #4867b0;
-}
-
-.dark#bodyStu #navbarStu .nav-item .nav-link:hover {
-  color: #ff6e65;
-}
-.dark#bodyStu #switchButton i:hover{
-  color: #ff6e65;
-  ;
-}
-
-
-/* welcome */
-
-.dark#bodyStu .welcome h1 {
-  color: #ffffff;
-}
-
-.dark#bodyStu .welcome__box i {
-  background-color: #262c3d;
-  color: #4867b0;
-}
-
-
-.dark#bodyStu .titleStu h1::before,
-.dark#bodyStu .titleStu h1::after {
-  background: #cdc5c5;
-}
-
-.dark#bodyStu .welcome__box h4 {
-  color: #ffffff;
-}
-
-.dark#bodyStu .welcome__box p {
-  color: #cdc5c5;
-}
-
-.dark#bodyStu .coursesStu {
-  background-color: #121725;
-  color: #ffffff;
-
-}
-
-.dark#bodyStu .coursesStu .coursesStu__card {
-  background-color: #121725;
-  color: #ffffff;
-  border: 1px solid rgba(255 255 255 / 10%);
-}
-
-.dark#bodyStu .coursesStu__content--bottom::after {
-  border-top: 1px solid rgba(255 255 255 / 20%);
-
-}
-
-.dark#bodyStu .coursesStu .coursesStu__body h4 a,
-.dark#bodyStu .coursesStu .coursesStu__body p {
-  color: #ffffff;
-}
-
-/* backToTop */
-
-.dark#bodyStu .backToTop {
-  background-color: #4867b0;
-}
-
-
-
-/* dark-theme (bao) */
-
-.dark#bodyStu .counter {
-  background-color: #161c2d;
-  color: #ffffff;
-}
-
-.dark#bodyStu .w3l-cutomer-main-cont .testimonials_grid {
-  background-color: #161c2d;
-  color: #ffffff;
-}
-
-.dark#bodyStu .team-block-single {
-  background-color: #161c2d;
-  color: #ffffff;
-}
-
-.dark#bodyStu .team-block-single h5.member a {
-  color: #ffffff;
-}
-
-.dark#bodyStu .right-side {
-  background-color: #161c2d;
-  color: #ffffff;
-}
-
-.dark#bodyStu .w3l-forms-9 h4.title-head {
-  color: #ffffff;
-}
-.dark#bodyStu .w3l-cutomer-main-cont .testimonials_grid {
-  box-shadow: 0 20px 62px #1d253a;
-}
-.dark#bodyStu .number__item{
-  border-right: 1px solid #474747;
-}
-.dark#bodyStu .number__item span{
-  color:#ffffff;
- 
-}
-.dark#bodyStu .bookblock .feature-gd {
-  background-color: #161c2d;
-  color: #ffffff;
-}
-
-.dark#bodyStu .bookblock .fea-gd-vv h5 {
-  color: #ffffff;
-}
-
-.dark#bodyStu .card {
-  background-color: #161c2d;
-  color: #ffffff;
-}
-
 /* !BACK TO TOP */
 .backToTop {
   display: block;
@@ -969,20 +795,14 @@ h4 {
 
 }
 
-
 .backToTop:hover {
   color: #ff6e65;
 }
-
 
 .cd-top--is-visible {
   visibility: visible;
   opacity: 1;
 }
-
-
-
-
 
 /***********RESPONSIVE**********/
 @media screen and (max-width: 1199px) {
@@ -1010,12 +830,8 @@ h4 {
   .servicesStu .servicesStu__box h4 a {
     margin-top: 20px;
     font-size: 20px;
-
   }
-
 }
-
-
 
 @media screen and (max-width: 1080px) {
   #navbarStu .navbar-nav .nav-item {
@@ -1221,12 +1037,6 @@ h4 {
     top: -20px;
   }
 
-  /* .backToTop */
-  .backToTop {
-    visibility: hidden;
-  }
- 
-
 }
 
 @media screen and (max-width: 482px) {
@@ -1244,6 +1054,11 @@ h4 {
     font-size: 35px;
     line-height: 45px;
   }
+    /* .backToTop */
+    .backToTop {
+      visibility: hidden;
+    }
+   
 }
 
 @media screen and (max-width: 430px) {
@@ -1303,7 +1118,7 @@ h4 {
 /* DEV BAO  */
 
  
-/*!girds book */
+/*!grids book */
   .bookblock .bb-services-ab {
     background: url(../img/bg3.jpg) no-repeat bottom;
     background-size: cover;
@@ -1367,11 +1182,21 @@ h4 {
 .number__item span {
     text-transform: uppercase;
     color: #fdfffc;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: .4px;
   }
   
   .number__item{
     border-right: 1px solid #eeeeee;
   }
+  
+
+  /* !Client */
+  /* client-title */
   .title-heading-w3 {
     max-width: 700px;
   }
@@ -1409,15 +1234,6 @@ h4 {
     bottom: -15px;
   }
 
-  .number__item span{
-      margin: 0;
-      padding: 0;
-      font-size: 16px;
-      line-height: 28px;
-      color: #707070;
-      letter-spacing: .4px;
-  }
-  
   .sub-test q::before {
     font-size: 50px;
     color: #ff6e65;
@@ -1426,7 +1242,7 @@ h4 {
     padding-top: 8px;
     display: inline-block;
   }
-  /* respionsive for count */
+  /* respionsive for client/title */
   @media (max-width: 480px) {
   
     h3.title-main,
@@ -1445,7 +1261,7 @@ h4 {
     }
   }
 
-  /*!Client*/
+  /* w3l-cutomer-main-cont */
   .w3l-cutomer-main-cont .testimonials_grid {
     background: #ffffff;
     border-radius: 4px;
@@ -1521,7 +1337,7 @@ h4 {
   font-weight: 600;
   line-height: 16px;
 }
-/* responsive for client */
+/* responsive for client/w3l-cutomer-main-cont */
 @media all and (max-width: 1200px) {
   .w3l-cutomer-main-cont .sub-author-con {
     grid-template-columns: .5fr 1fr;
@@ -2085,6 +1901,178 @@ button.search-btn {
 /* End form */
 
 
+/* TODO: Dark Theme*/
+
+/* dark-theme(giao) */
+.dark#bodyStu {
+  background-color: #161c2d;
+  color: #ffffff;
+}
+/* switchButton */
+
+.dark#bodyStu #switchButton {
+  background-color: #161c2d;
+  color: #4867b0;
+}
+
+.dark#bodyStu #switchButton .fa-sun {
+  display: block;
+  color: #ffffff;
+
+}
+
+.dark#bodyStu #switchButton .fa-moon {
+  display: none;
+
+}
+/* header */
+
+.dark#bodyStu .top__header {
+  background-color: #4867b0;
+}
+
+.dark#bodyStu .headerStu {
+  background-color: #161c2d;
+
+}
+
+.dark#bodyStu .headerStu a {
+  color: #ffffff;
+}
+
+.dark#bodyStu .headerStu button.navbar-toggler {
+  background-color: #4867b0;
+
+}
+
+.dark#bodyStu .headerStu #navbarStu .navbar-toggler:focus {
+
+  outline: 2px double;
+}
+
+.dark#bodyStu .headerStu .headerStu__form input::placeholder {
+  color: #ffffff;
+}
+.dark#bodyStu .headerStu .headerStu__form button.btn-search{
+  color: #4867b0;
+}
+
+.dark#bodyStu #navbarStu .nav-item .nav-link:hover {
+  color: #ff6e65;
+}
+.dark#bodyStu #switchButton i:hover{
+  color: #ff6e65;
+  ;
+}
+
+
+/* welcome */
+
+.dark#bodyStu .welcome h1 {
+  color: #ffffff;
+}
+
+.dark#bodyStu .welcome__box i {
+  background-color: #262c3d;
+  color: #4867b0;
+}
+
+
+.dark#bodyStu .titleStu h1::before,
+.dark#bodyStu .titleStu h1::after {
+  background: #cdc5c5;
+}
+
+.dark#bodyStu .welcome__box h4 {
+  color: #ffffff;
+}
+
+.dark#bodyStu .welcome__box p {
+  color: #cdc5c5;
+}
+
+.dark#bodyStu .coursesStu {
+  background-color: #121725;
+  color: #ffffff;
+
+}
+
+.dark#bodyStu .coursesStu .coursesStu__card {
+  background-color: #121725;
+  color: #ffffff;
+  border: 1px solid rgba(255 255 255 / 10%);
+}
+
+.dark#bodyStu .coursesStu__content--bottom::after {
+  border-top: 1px solid rgba(255 255 255 / 20%);
+
+}
+
+.dark#bodyStu .coursesStu .coursesStu__body h4 a,
+.dark#bodyStu .coursesStu .coursesStu__body p {
+  color: #ffffff;
+}
+
+/* backToTop */
+
+.dark#bodyStu .backToTop {
+  background-color: #4867b0;
+}
+
+
+
+/* dark-theme (bao) */
+
+.dark#bodyStu .counter {
+  background-color: #161c2d;
+  color: #ffffff;
+}
+
+.dark#bodyStu .w3l-cutomer-main-cont .testimonials_grid {
+  background-color: #161c2d;
+  color: #ffffff;
+}
+
+.dark#bodyStu .team-block-single {
+  background-color: #161c2d;
+  color: #ffffff;
+}
+
+.dark#bodyStu .team-block-single h5.member a {
+  color: #ffffff;
+}
+
+.dark#bodyStu .right-side {
+  background-color: #161c2d;
+  color: #ffffff;
+}
+
+.dark#bodyStu .w3l-forms-9 h4.title-head {
+  color: #ffffff;
+}
+.dark#bodyStu .w3l-cutomer-main-cont .testimonials_grid {
+  box-shadow: 0 20px 62px #1d253a;
+}
+.dark#bodyStu .number__item{
+  border-right: 1px solid #474747;
+}
+.dark#bodyStu .number__item span{
+  color:#ffffff;
+ 
+}
+.dark#bodyStu .bookblock .feature-gd {
+  background-color: #161c2d;
+  color: #ffffff;
+}
+
+.dark#bodyStu .bookblock .fea-gd-vv h5 {
+  color: #ffffff;
+}
+
+.dark#bodyStu .card {
+  background-color: #161c2d;
+  color: #ffffff;
+}
 
 
 
