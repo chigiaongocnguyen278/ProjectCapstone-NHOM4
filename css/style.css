@@ -998,10 +998,9 @@ h4 {
 
   .carouselStu .carousel__info {
     width: 70%;
-    left: 35%;
+    left: 40%;
 
   }
-
 
   .carouselStu .carousel__info h1 {
     font-size: 57px;
@@ -1115,10 +1114,6 @@ h4 {
     color: #0d369f;
   }
 
-  .dark#bodyStu #switchButton .fa-sun {
-    color: #ff6e65;
-  }
-
    /* carousel */
    .carouselStu .carousel__info {
    
@@ -1129,7 +1124,6 @@ h4 {
     line-height: 60px;
   }
 
-  
     /* courses */
   .coursesStu .row>div:nth-child(3) {
     margin-top: 3rem;
@@ -1215,7 +1209,6 @@ h4 {
   /* carousel */
   .carouselStu .carousel__info {
     width: 90%;
-
   }
 
   /* service */
@@ -1226,14 +1219,14 @@ h4 {
 
   .servicesStu .servicesStu__box .box1 {
     top: -20px;
-
-
   }
 
   /* .backToTop */
   .backToTop {
     visibility: hidden;
   }
+ 
+
 }
 
 @media screen and (max-width: 482px) {
@@ -1415,24 +1408,6 @@ h4 {
     left: 20px;
     bottom: -15px;
   }
-  
-  @media (max-width: 480px) {
-  
-    h3.title-main,
-    h3.title-main-2 {
-      font-size: 35px;
-      line-height: 45px;
-    }
-  }
-  
-  @media (max-width: 410px) {
-  
-    h3.title-main,
-    h3.title-main-2 {
-      font-size: 30px;
-      line-height: 40px;
-    }
-  }
 
   .number__item span{
       margin: 0;
@@ -1450,6 +1425,24 @@ h4 {
     line-height: .8;
     padding-top: 8px;
     display: inline-block;
+  }
+  /* respionsive for count */
+  @media (max-width: 480px) {
+  
+    h3.title-main,
+    h3.title-main-2 {
+      font-size: 35px;
+      line-height: 45px;
+    }
+  }
+  
+  @media (max-width: 410px) {
+  
+    h3.title-main,
+    h3.title-main-2 {
+      font-size: 30px;
+      line-height: 40px;
+    }
   }
 
   /*!Client*/
@@ -1528,7 +1521,7 @@ h4 {
   font-weight: 600;
   line-height: 16px;
 }
-
+/* responsive for client */
 @media all and (max-width: 1200px) {
   .w3l-cutomer-main-cont .sub-author-con {
     grid-template-columns: .5fr 1fr;
@@ -1685,7 +1678,7 @@ button.search-btn {
    border: none;
    transition: all .25s ease-in-out;
  }
- 
+ /* responsive for customer */
 
 @media all and (max-width: 560px) {
   h3.title-style {
@@ -1853,6 +1846,7 @@ button.search-btn {
   font-size: 17px;
   margin-top: 10px;
 }
+/* responsive for footer */
 
 @media (max-width: 1080px) {
   .w3l-footer-22 .text-txt {
@@ -2008,7 +2002,7 @@ button.search-btn {
   display: flex;
 }
 
-
+/* responsive for footer/form */
 @media (max-width: 790px) {
   .w3l-footer-22 .sub-columns {
     margin-top: 120px;
