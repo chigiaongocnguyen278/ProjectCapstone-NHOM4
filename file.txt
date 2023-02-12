@@ -3,29 +3,23 @@ Teamlead:Giao
 Team member1: Giao
 Team member2: Bao
 
-Tasks Name	Start	Finish	%Build   Names	   Start      Finish      %Testing   Names
-			                           Testing    Testing	  
+Tasks Name	Start	Finish	%Build      Names	    Start     Finish      %Testing   Names
+			                            Testing    Testing	  
               	
-Top-header	27/1	7/2	100%	Giao	    7/2	       8/2        100%       Giao
-Header		27/1	7/2	100%	Giao	    7/2	       8/2        100%       Giao
-Carousel	27/1	7/2	100%	Giao	    7/2	       8/2        100%       Giao
-Services	27/1	7/2	100%	Giao	    7/2	       8/2        100%       Giao
-Welcome		27/1	7/2	100%	Giao	    7/2	       8/2        100%       Giao
-Courses		27/1	7/2	100%	Giao	    7/2	       8/2        100%       Giao
-BackToTop	27/1	7/2	100%	Giao	    7/2	       8/2        100%       Giao
+Top-header	27/1	1/2	   	100%		Giao	    6/2	       8/2        100%       Giao
+Header		27/1	1/2		100%		Giao	    6/2	       8/2        100%       Giao
+Carousel	27/1	1/2		100%		Giao	    6/2	       8/2        100%       Giao
+Services	2/2	    6/2		100%		Giao	    6/2	       8/2        100%       Giao
+Welcome		2/2	    6/2		100%		Giao	    6/2	       8/2        100%       Giao
+Courses		2/2	    6/2		100%		Giao	    6/2	       8/2        100%       Giao
 
 
-Grids book	27/1	7/2	100%	Bao	    7/2	       8/2        100%       Bao
-Count		27/1	7/2	100%	Bao	    7/2	       8/2        100%       Bao
-Client		27/1	7/2	100%	Bao	    7/2	       8/2        100%       Bao
-Customer	27/1	7/2	100%	Bao	    7/2	       8/2        100%       Bao
-Contact		27/1	7/2	100%	Bao	    7/2	       8/2        100%       Bao
-Footer		27/1	7/2	100%	Bao	    7/2	       8/2        100%       Bao
+Grids book	27/1	1/2	 	100%		Bao	    	6/2	       8/2        100%       Bao
+Count		27/1	1/2		100%		Bao	   		6/2	       8/2        100%       Bao
+Client		27/1    1/2		100%		Bao	    	6/2	       8/2        100%       Bao
+Customer	2/2		8/2		100%		Bao	   		6/2	       8/2        100%       Bao
+Contact		2/2		8/2		100%		Bao	    	6/2	       8/2        100%       Bao
+Footer		2/2		8/2		100%		Bao	    	6/2	       8/2        100%       Bao
 
 
 
-								
-	% 
-	Names
-Header	12/10	12/13	100%	Dev1		12/14	95%	Dev2
-Carousel	12/10	12/13	100%	Dev1		12/14	100%	Dev2

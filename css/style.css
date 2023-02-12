@@ -170,7 +170,7 @@ h4 {
 
   border: 0 solid transparent;
 
-  box-shadow: rgb(12 12 12 / 6%) 0px 1px 20px 0px;
+  box-shadow: 0px 1px 20px 0px  rgb(12 12 12 / 6%) ;
 }
 
 #navbarStu a.dropdown-item {
@@ -1147,7 +1147,7 @@ h4 {
     background: #0d369f;
     color: #0d369f; 
     font-size: 28px;
-    background: #0d369f17;
+    background: rgba(13, 55, 160, 0.09);
     width: 65px;
     height: 66px;
     line-height: 65px;
@@ -1305,7 +1305,7 @@ h4 {
 .w3l-cutomer-main-cont .testimonials_grid {
   background-color: #ffffff;
   border-radius: 4px;
-  box-shadow: 0 20px 62px #0414451a;
+  box-shadow: 0 20px 62px rgba(4, 20, 69, 0.102);
   padding: 2rem;
 }
 
@@ -1379,7 +1379,7 @@ h5.member a {
   position: absolute;
   bottom: -227px;
   margin: 0;
-  background-color: #0808084a;
+  background-color: rgba(8, 8, 8, 0.29);
   padding: 20px 0;
   transition: .5s all;
   -moz-transition: .5s all;
@@ -1434,7 +1434,7 @@ h5.member a {
   position: absolute;
   bottom: -227px;
   margin: 0;
-  background-color: #0808084a;
+  background-color: rgba(8, 8, 8, 0.29);
   padding: 20px 0;
   transition: .5s all;
   -moz-transition: .5s all;
@@ -1644,7 +1644,7 @@ button.search-btn {
 }
 
 .w3l-footer-22 .ab-right-cont {
-  border-left: 1px solid #40495282;
+  border-left: 1px solid rgba(64, 73, 82, 0.51);
 }
 
 .w3l-footer-22 .column2 a:hover {
